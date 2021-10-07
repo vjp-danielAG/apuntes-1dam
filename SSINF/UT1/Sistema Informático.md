@@ -46,4 +46,21 @@ La memoria principal es la que se encarga de mantener cargados los datos necesar
 - (MDR/RIM) Registro de Intercambio de Memoria
 - (MAR/RDM) Registro de Dirección de Memoria
 
-### 
+### Evolución de la memoria
+- Memoria con tubos de vacío
+- Memoria de transistores y condensadores
+-  ![Memoria de ferrita|100](https://images.fineartamerica.com/images-medium-large-5/magnetic-core-memory-of-univac-computer-pasieka.jpg) ![Memoria de ferrita de cerca|150](https://upload.wikimedia.org/wikipedia/commons/0/04/KL_Kernspeicher_Makro_1.jpg)Memoria de ferrita
+- Memoria de DiscPack
+
+
+### Evolución de los procesadores
+- Intel 4004 - 4 bits : se usó en calcuradoras con BCD para los decimales
+- Intel 8080 - 8 bits : trabajaba directamente con binario
+- AMD 2900 - 4 bits : se podían juntar, escalable hasta los 32 bits
+- Motorola 6800 - 8 bits : equivalente al Intel 8080
+- Zilog Z80 - 8 bits  : basado en el Intel 8080 => ZX Spectrum
+- Motorola 6800 => sale el Apple 1 y 2 (64KB de memoria) => Comodore
+- Intel 8086 - 16 bits (max 640KB de memoria) => IBM PC
+- Desaparece Zilog
+- Motorola 68000 - 16 bits => Apple Mac 1 (MAC OS gráfico) => Comodore Amiga
+- Aparece Windows (copia de MS DOS de IBM) 
