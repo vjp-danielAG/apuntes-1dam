@@ -63,4 +63,6 @@ La memoria principal es la que se encarga de mantener cargados los datos necesar
 - Intel 8086 - 16 bits (max 640KB de memoria) => IBM PC
 - Desaparece Zilog
 - Motorola 68000 - 16 bits => Apple Mac 1 (MAC OS gráfico) => Comodore Amiga
-- Aparece Windows (copia de MS DOS de IBM) 
+- Aparece Windows (copia de MS DOS de IBM)
+
+### 
