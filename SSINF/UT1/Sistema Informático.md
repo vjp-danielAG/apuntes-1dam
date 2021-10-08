@@ -58,11 +58,17 @@ La memoria principal es la que se encarga de mantener cargados los datos necesar
 - Intel 8080 - 8 bits : trabajaba directamente con binario
 - AMD 2900 - 4 bits : se podían juntar, escalable hasta los 32 bits
 - Motorola 6800 - 8 bits : equivalente al Intel 8080
-- Zilog Z80 - 8 bits  : basado en el Intel 8080 => ZX Spectrum
+- Zilog Z80 - 8 bits : basado en el Intel 8080 => ZX Spectrum
 - Motorola 6800 => sale el Apple 1 y 2 (64KB de memoria) => Comodore
 - Intel 8086 - 16 bits (max 640KB de memoria) => IBM PC
 - Desaparece Zilog
-- Motorola 68000 - 16 bits => Apple Mac 1 (MAC OS gráfico) => Comodore Amiga
+- Motorola 68000 - 16 bits => Apple Mac 1 (MAC OS gráfico) => Comodore Amiga => Atari
 - Aparece Windows (copia de MS DOS de IBM)
+- Intel 80286 => IBM PC/AT
+- Intel 80386 (i368): 32 bits => usa memoria vitrual
+- Motorola se rindió con el mercado de ordenadores
+- Intel 80486 (i486) => Intel Pentium
+- Vuelve a aparecer AMD => copia el i486 => AMD 486DX => AMD K6 (primer 1 GHz 64b)
+- Salen los Intel i3-5
 
-### 
+La velocidad de los ordenadores se dobla cada 18 meses como media.
