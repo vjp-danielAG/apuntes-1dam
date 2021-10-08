@@ -76,9 +76,11 @@ La velocidad de los ordenadores se dobla cada 18 meses como media.
 
 ### Placa Base
 Es simplemente un circuito impreso. 
-- Sockets:
+- Sockets
 - Puertos de Expansión
 - Puertos IDE - pATA
 - Puertos SATA
 - ![Puerto Interno SCSI|200](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimages-na.ssl-images-amazon.com%2Fimages%2FI%2F41eLK6A5QeL.__AC_SX300_QL70_ML2_.jpg&f=1&nofb=1) SCSI
 
+- Bus trasero (Backend Bus) => Conecta GPU, Puente Norte, CPU y Memoria
+- Bus frontal (FS Bus) => Conecta CPU y Puente Sur => USB, SATA...
