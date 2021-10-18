@@ -114,4 +114,20 @@ La capacidad de un disco: `nPlatos x nPistas x sectores/pista x bytes/sector`
 - ATX1 2v 24p - Alimentación de la placa
 - EATX 12v - 4/8p - Alimentación del procesador
 - SPDIFF - Audio de alta fidelidad
+- etc...
+
+### Periféricos
+Un periférico es un dispositivo axiliar e independiente que se conecta a la placa base.
+
+- Teclado: Sirve únicamente para entrada. Se compone de una matriz de cables, un codificador y una interfaz serial. Normalmente usan la distribución QWERTY. Hay varios tipos de teclados:
+	- Mecánicos
+	- Membrana
+	- Táctiles
+
+
+- Ratón: Sirve únicamente para entrada. Originalmente se usaba una bola para determinar el movimiento del ratón, pero actualmente se utiliza una fuente de luz y una matríz de sensores foto-eléctricos. Hay dos tipos de ratones.
+	- Direcciónal: Indica la dirección en la que debe moverse el cursor.
+	- Posicional: Indica la posición en la que debe estar el cursor.
+
+- TrackBall: Sirve únicamente para entrada. Es como un ratón invertido.
 - 
