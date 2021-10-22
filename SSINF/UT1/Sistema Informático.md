@@ -119,6 +119,7 @@ La capacidad de un disco: `nPlatos x nPistas x sectores/pista x bytes/sector`
 ### Periféricos
 Un periférico es un dispositivo axiliar e independiente que se conecta a la placa base.
 
+Entrada:
 - Teclado: Sirve únicamente para entrada. Se compone de una matriz de cables, un codificador y una interfaz serial. Normalmente usan la distribución QWERTY. Hay varios tipos de teclados:
 	- Mecánicos
 	- Membrana
@@ -130,4 +131,36 @@ Un periférico es un dispositivo axiliar e independiente que se conecta a la pla
 	- Posicional: Indica la posición en la que debe estar el cursor.
 
 - TrackBall: Sirve únicamente para entrada. Es como un ratón invertido.
-- 
+
+Salida:
+- Impresoras: 
+	- [Impresoras de impacto](https://es.wikipedia.org/wiki/Impresora_de_impacto) (normalmente las líneas eran de 80 o 132 caracteres)
+	- [Impresora de líneas](https://es.wikipedia.org/wiki/Impresora_de_l%C3%ADnea)
+	- [Impresora de matricial](https://es.wikipedia.org/wiki/Impresora_matricial)
+		- Las había de 9, 18, 27, 36 agujas. Mucha resolución (72, 360 ppp)
+		- Ventajas: 
+			- Puedes modificar el juego de caracteres
+			- Puedes hacer gráficos en blanco y negro
+			- Las cintas de tinta son muy baratas y algunas reutilizables
+			- El mecanismo es mucho más simple
+			- Son mucho más silenciosas
+			- Se puede usar papel autocopiante (las buenas hasta 4 copias)
+			- Se puede usar hojas sueltas, no hace falta papel continuo
+			- Son mucho más ligeras
+			- Mayor rango de formatos de papel
+		- Desventajas: Casi ninguna comparativamente
+	- [Impresora Térmica](https://es.wikipedia.org/wiki/Impresora_t%C3%A9rmica)
+	- [Impresora de injección de tinta](https://es.wikipedia.org/wiki/Impresora_de_inyecci%C3%B3n)
+		- Cyan, Magenta, Amarillo y Negro (CMYK) son los colores que se usan.
+		- Cada inyector se puede controlar independientemente. Tienen mucha mayor resolución, alrededor los 600 ppp. El cabezal no hace contacto con el papel y son más silenciosa.
+		- De depósito removible: El cabezal es fijo y es parte de la impresora.
+		- Cartucho con cabezal: El cabezal está incluido en el propio cartucho. Tienen el problema de tener que alinear los diferentes cabezales de forma independiente y la limpieza de los cabezales. Si el cabezal se obtruye, se puede cambiar el cartucho. Son buenas para impresión a pequeña escala. 
+		- Para impresoras fotográficas, se necesita usar papel especial, y mayor variedad de tintas.
+		- No se debe tocar una hoja recién impresa, porque la impresora tarda en secar. El tiempo de sacado depende de la cantidad de tinta.
+		- No hacen copia con papel autocopiante.
+		- Imprimir imágenes es un proceso lento, ya que precisa de muchos cálculos.
+	- [Impresoras Láser](https://es.wikipedia.org/wiki/Impresora_l%C3%A1ser)
+		- Una impresora láser se basa en un rodillo fotosensible que se carga electricamentesegún reciba, o no, luz. El principio de funcionamiento es sencillo, y se basa en cargas electroestáticas.
+		- Un rodillo cargado electroestaticamente se lleva las partículas del toner y las lleva a el papel. Luego el papel pasa por un fusor, que derrite las partículas en el papel.
+		- La función del láser/leds es descargar parte del rodillo, para que las partículas no se peguen al rodillo. [Xerografía](https://es.wikipedia.org/wiki/Xerograf%C3%ADa)
+		- También hay dos tipos de cartuchos: Con rodillo, o solo el toner.
