@@ -164,3 +164,13 @@ Salida:
 		- Un rodillo cargado electroestaticamente se lleva las partículas del toner y las lleva a el papel. Luego el papel pasa por un fusor, que derrite las partículas en el papel.
 		- La función del láser/leds es descargar parte del rodillo, para que las partículas no se peguen al rodillo. [Xerografía](https://es.wikipedia.org/wiki/Xerograf%C3%ADa)
 		- También hay dos tipos de cartuchos: Con rodillo, o solo el toner.
+	- [Impresoras 3D](https://es.wikipedia.org/wiki/Impresora_3D)
+		- Las impresoras 3D están compuestos por: una plataforma de cristal que hace de suelo (que debe estar perfectamente nivelada) y un marco por el que se mueven tres motores (uno por eje), que desplazan una cabeza extrusora que se encarga de depositar material.
+		- También hay otro tipo de impresoras que imprimen con resina, pero estas funcionan de forma diferente.
+		- Normalmente usan filamentos de plástico, pero hay algunas que pueden usar metales blandos (aplicaciones industriales).
+		- El producto final no tiene muy buen acabado, y suele hacer falta pulir y quitar material sobrante.
+	- [Escaner](https://es.wikipedia.org/wiki/Esc%C3%A1ner_inform%C3%A1tico)
+		- La barra del escaner no es mas que un sensor CCD (Charge Coupled Device) que se mueve de un lado a otro. 
+		- Originalmente solo escaneaban en blanco y negro, luego se pasó a escala de grises, y luego ya se empezó a incrementar la gama de colores  (RGB) que los escáneres podían diferenciar. Las resoluciones más común es de 8000ppp.
+	- [Cámara]()
+		- El funcionamiento es muy similar al de un escaner, pero esta vez con una matríz de sensores. Suelen tener un problemas para filtrar la luz infrarroja.

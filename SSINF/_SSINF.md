@@ -10,5 +10,4 @@
 - [[Codificación Numérica]]
 - [[Codificación de Caracteres]]
 - [[Sistema Informático]]
-- [[Almacenamiento de información]]
 
