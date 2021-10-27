@@ -91,4 +91,27 @@ Para poder muestrear una frecuencia, por lo menos hay que poder escuchar el dobl
 
 No hay problema con tener una resolución de 0-4000Hz en un microfono (la voz humana llega a los 3800Hz), pero el oido humano escucha hasta los 20-20.000Hz, así que para grabar en estereo hacen falta 80.000Hz (40.000 por lado).
 
+La tarjeta de sonido no solo sirve para capturar y reproducir sonidos, si no que también sirve para generar sonido. Hay dos formas de hacer esto:
+- Tabla de ondas: Una tabla donde se guardan grabaciones de instrumentos reales. No se graban todas las notas, si no que se hace de forma salteada, y el resto se interpolan de las que tenemos grabadas. La tabla de ondas más usada es la Tabla MIDI. Está muy bien definida; hay 256 instrumentos y de ellos los 128 primeros intrumentos son canónicos. Además, los últimos 64 instrumentos no están definidos.
+- Síntesis FM: Para generar un sonido se añaden ondas para emular los sonidos. De esta forma se intenta emular instrumentos reales. Hoy en día se usa mayoritariamente para la síntesis de voz. La modulación de frecuencia es un proceso que usa bastante CPU.
+
+Conectores internos:
+- Entrada: CD/BlueRay/S-PDIF
+- Salida interna: S-PDIF para conectarse a otra tarjeta, o para sonido digital HDMI.
+
+Conectores externos: Todos suelen ser estereo.
+- IN: Entrada de audio de alta fidelidad (20 a 22000Hz).
+- OUT: Salida de audio de alta fidelidad (20 a 22000Hz).
+- MIC: Entrada de audio de un microfono (0 a 4000Hz).
+- EAR: Salida de audio para auriculares. Suelen recortar bajos y altos.
+
+Además, algunas incluyen más puertos, para sistemas de audio 5.1:
+- OUT-F: Salida frontal
+- OUT-R: Salida lateral (rear)
+
+Otros conectores que pueden tener:
+- S/PDIF: Sonido digital.
+- Óptico o RCA: SOnido digital directo a altavoces.
+- MIDI: Comandos para instrumentos.
+
 ##### JoyStick
