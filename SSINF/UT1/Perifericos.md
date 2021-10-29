@@ -111,7 +111,37 @@ Además, algunas incluyen más puertos, para sistemas de audio 5.1:
 
 Otros conectores que pueden tener:
 - S/PDIF: Sonido digital.
-- Óptico o RCA: SOnido digital directo a altavoces.
-- MIDI: Comandos para instrumentos.
+- Óptico o RCA: Sonido digital directo a altavoces.
+- [[MIDI]]: Comandos para instrumentos.
+
+##### Tarjeta Gráfica
+La GPU no deja de ser un procesador especializado. Está conectado al bus principal del sistema, por lo que tiene acceso a la memoria principal del sistema (RAM).
+
+Las GPU tienen su propia memoria interna/local con la que trabajan, y no hacen uso de la CPU, salvo para realizar operaciones que no tienen conocimiento de como realizar.
+
+Varias tarjetas gráficas puenden trabajar como una sola mediante el uso de Crossfire/SLI (ATI/Nvidia).
+
+La memoria de una GPU se divide en una parte reservada para la pantalla (screen buffer), y la memoria de computo.
+
+Suelen soportar varios tipos de salida:
+- VGA y DVI, que usan las señales `R G B`, `SyncHorizontal`, `SyncVertical`.
+- HDMI.
+
+##### Pantalla
+Las primeras pantallas no usaban un modo gráfico, por lo que en vez de mostrar una matriz de píxeles, trabajaban matrizes de caracteres y un color simple con atributos.
+
+Luego ya se pasó al modo gráfico, en el que cada pixel se podía controlar independientemente.
+
+Los primeros modelos se usaba CGA y permitia hasta una resolución de 640x200p, luego se pasó a EGA con RGB (con 4 bits), que permitió hasta 640x480p y con codificación RGB (con 8 bits).
+
+Más tarde llegó VGA y el TrueColor (RGB con 16 bits `554`), y hoy en día se utiliza XGA, que usa la codificación RGB (con 24 bit `888`), que alcanza 1360x1024p.
+
+Hoy en día está FullHD, que llega a los 1920x1080p, que soporta TrueColor (de 24 y 32 bits).
 
 ##### JoyStick
+El joystick se inventó antes que el ratón. Se enchufaban por puerto serial, y los primeros no podían mandar direcciones en diagonal.
+
+Luego esto evolucionó, y se usaba un potenciometro por eje.
+La señal analógica de los potenciometros se pasaba por un ADC, y con eso se alcanzaba muchas más direcciones. Estos ya usaban el GamePort para conectarse.
+
+Hoy en día los controles de consola suenen llevar dos controles direccionales. Es decir, dos joysticks, o un joystick y un DPad (Cruzeta).
