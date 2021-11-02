@@ -18,11 +18,11 @@ Esto literalmente significa "Incremento de [[C]]"; ya que ++ es el operador de i
 - Soporta programación Orientada a Objetos
 - Los programas escritos en [[C]]/[[C++]] suelen ser más rapidos y ocupar menos
 - Ofrece un mayor control sobre la memoria del programa y del sistema 
-- Al ser un lenguaje estandarizado, existen compiladores para la gran mayoría de [[Arquitectura|Arquitecturas]] y [[SO|Sistemas Operativos]]
+- Al ser un lenguaje estandarizado, existen compiladores para la gran mayoría de [[Arquitectura|Arquitecturas]] y [[Sistema Operativo|Sistemas Operativos]]
 - Permite programación modular haciendo uso del sistema de dependencias
 
 ### Desventajas de [[C++]]
-- Hay que compilar el programa para cada [[SO|Sistema Operativo]], y para cada [[Arquitectura|Arquitectura de procesador]] individualmente
+- Hay que compilar el programa para cada [[Sistema Operativo|Sistema Operativo]], y para cada [[Arquitectura|Arquitectura de procesador]] individualmente
 - No hay un Gestor de Memoria o [[Garbage Collector]], por lo que hay que liberar la memoria manualmente, lo que aumenta la complejidad de los programas escritos en [[C++]].
 
 
