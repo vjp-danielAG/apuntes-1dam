@@ -8,4 +8,4 @@ Las comunicaciones mejoraron, y se dejó de usar el bit de paridad, para pasar a
 
 Al final [[ASCII]] fue reemplazado por [[UNICODE]], que utiliza entre 16 y 32 bits para representar caracteres.
 
-Antes de [[ASCC]] existió [[EBCDIC]], pero era propietario de IBM. 
+Antes de [[ASCII]] existió [[EBCDIC]], pero era propietario de IBM. 
