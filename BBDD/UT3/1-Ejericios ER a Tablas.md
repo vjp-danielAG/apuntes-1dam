@@ -21,3 +21,11 @@
 - PERSONA-PERSONAL(__pID=>PERSONA__,unidad,cat)
 - PROFESOR-IMPARTE(__nombreC=>CENTRO__,__pID=>PERSONA-PROFESOR__)
 - CENTRO(__nombreC__)
+
+##### 7 - Agencia de alquileres
+- PROPIETARIO(__DNI__,nombre,tlfno)
+- CLIENTE(__DNI__,nombre,tlfno)
+- TEMPORADA(__Quincena__,__Mes__,__Anno__)
+- APARTAMENTO(__Cod_apart__,DNI=>PROPIETARIO,direccion,tipo,num_hab,m2,p_linea_de_playa)
+- COSTE-AP-TEMP(__Cod_apart=>APARTAMENTO__,__Quincena=>TEMPORADA__,__Mes=>TEMPORADA__,__Anno=>TEMPORADA__)
+- ALQUILER()

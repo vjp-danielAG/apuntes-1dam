@@ -1,0 +1,12 @@
+##### B - Agencia inmobiliaria
+- PROPIETARIO(__Nombre__,tlfno)
+- CLIENTE(__Nombre__)
+- VISITA(__Nombre=>CLIENTE-BR;MC__,__Ref=>INMUEBLE-BC;MC__,__fecha__,comentario)
+- INMUEBLE(__Ref__,oficina,venta,alquiler,direc,m2,Nombre=>PROPIETARIO-BC;MC)
+- LOCAL(__Ref=>INMUEBLE-BC;MC__,zona,caracteristicas)
+- VIVIENDA(__Ref=>INMUEBLE-BC;MC__)
+- TIENE-ESTANCIA(__Ref=>VIVIENDA-BC;MC__,__Tipo=>ESTANCIA-BR;MC__,cantidad)
+- ESTANCIA(__Tipo__)
+- PISO(__Ref=>VIVIENDA-BC;MC__,zona,tipo)
+- CASA(__Ref=>VIVIENDA-BC;MC__,zona)
+- VILLA(__Ref=>VIVIENDA-BC;MC__,parcela,urbanizacion)
