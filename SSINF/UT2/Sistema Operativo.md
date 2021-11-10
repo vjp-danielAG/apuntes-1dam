@@ -24,3 +24,14 @@ Los [[Sistema Operativo|SO]] están programados por capas (como una cebolla):
 - Carga el Boot Loader: Programa que te deja elegir los Sistemas Operativos/Kernels a cargar.
 - Carga el Kernel: Luego de que el Kernel se ha cargado, se termina de cargar el propio sistema operativo.
 - Carga el Sistema Operativo.
+
+##### Distribución de directorios
+Linux:
+- `/`: Directorio raiz
+- `/bin`: Donde se encuentran los ejecutables del sistema.
+- `/sbin`: Son los ejecutables del superusuario.
+- `/boot`: Cómo se arranca el sistema, el bootloader y los kernels instalados.
+- `/cdrom`: Directorio virtual donde tradicionalmente se montaban los CDs.
+- `/mnt`: Directorio virtual donde tradicionalmente se montaba el resto de unidades.
+- `/media`: Directorio virtual donde se montan actualmente los dispositivos.
+- `/dev`: 

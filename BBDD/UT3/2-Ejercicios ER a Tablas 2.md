@@ -10,3 +10,26 @@
 - PISO(__Ref=>VIVIENDA-BC;MC__,zona,tipo)
 - CASA(__Ref=>VIVIENDA-BC;MC__,zona)
 - VILLA(__Ref=>VIVIENDA-BC;MC__,parcela,urbanizacion)
+
+##### C - Organización humanitaria
+- SOCIO(__DNI__,nombre,direccion,fecha pago,tipo,importe)
+- VOLUNTARIO(__DNI__,nombre,direccion)
+- VOLUNTARIO-SANITARIO(__DNI=>VOLUNTARIO__,profesion,disponible)
+- REALIZA(__DNI=>VOLUNTARIO-SANITARIO__,__Codigo=>ENVIO-HUMANITARIO__)
+- SEDE(__Ciudad__,direccion,director,DNI=>SOCIO,DNI=>VOLUNTARIO)
+- ORGANIZA(__Codigo=>ENVIO__,__Ciudad=>SEDE__)
+- ENVIO(__Codigo__,destino,fecha,tipo)
+- ENVIO-HUMANITARIO(__Codigo=>ENVIO__)
+- ENVIO-MATERIAL(__Codigo=>ENVIO__,tipo)
+- ENVIO-MEDICAMENTOS(__Codigo=>ENVIO-MATERIAL__,nombre,unidad)
+- ENVIO-ALIMENTOS(__Codigo=>ENVIO-MATERIAL__,nombre)
+
+##### X - Cocinas
+- MUEBLE(__Codigo__,linea,color,ancho,alto,largo,Cod=>COCINA,tipo)
+- MUEBLE-BAJO(__Codigo=>MUEBLE__,alturaSobreSuelo)
+- MUEBLE-ENCIMERA(__Codigo=>MUEBLE__,material)
+- FABRICA(__Nombre=>FABRICANTE__,__Codigo=>MUEBLE__)
+- FABRICANTE(__Nombre__,direccion,telefono)
+- TRABAJA(__Nombre=>FABRICANTE__,__Nombre=>DISTRIBUIDOR__)
+- DISTRIBUDOR(__Nombre__,direccion,telefono)
+- COCINA(__Cod__,...)
