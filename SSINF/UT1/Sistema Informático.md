@@ -20,7 +20,7 @@ Esta arquitectura se llama Vonn Newman, pero las usadas hoy en día son más com
 #### Componentes Internos
 - (SR) Registro de Estado: Contiene las Flags
 - (UC) Unidad de Control: Mayoría de la lógica de la CPU
-- (IR) Registro de Instrucción: Contiene
+- (IR) Registro de Instrucción: Contiene la instrucciñón a ejecutar
 - (TMPS) Accumulador: Registro temporal
 - (PC) Contador de Programa: Dirección de memoria de por donde se está la ejecución
 - (ALU) Unidad Aritmetico-Lógicas: Realiza las operaciones de la CPU

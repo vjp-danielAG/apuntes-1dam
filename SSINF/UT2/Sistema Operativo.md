@@ -34,4 +34,25 @@ Linux:
 - `/cdrom`: Directorio virtual donde tradicionalmente se montaban los CDs.
 - `/mnt`: Directorio virtual donde tradicionalmente se montaba el resto de unidades.
 - `/media`: Directorio virtual donde se montan actualmente los dispositivos.
-- `/dev`: 
+- `/dev`: Directorio donde se encuentran los dispositivos del sistema 
+- `/dev/loop*` => dispositivo de red locales (localhost)
+- `/dev/zero` => dispositivo especial que devuelve ceros
+- `/dev/null` => dispositivo especial que recibe entradas y la borra
+
+##### Permisos en Linux
+Nota: El prompt nos notifica de los permisos: `$` es usuario normal. `#` es un superusuario.
+
+Al ejecutar el comando: `ls -lh` (ls largo, modo humanos), te devuelve la información sobre directorios y ficheros en el siguiente formato:
+
+`permisos` `inodo` `propietario` `grupo` `tamaño` `fecha y hora modificación`
+
+La primera letra de los permisos nos da información sobre el tipo de elemento que es:
+- `d` => directorio
+- `l` => enlace
+- `c` => periférico
+- `b` => dispositivo de bloques 
+
+El resto de permisos usa la notación `UGO` (`user`,`group`,`other`) y hay tres posibles permisos para cada parte, `rwx` (`read`,`write`,`execute`).
+Algunos puntos a tener en cuenta:
+- En directorios, el permiso de ejecución (`x`) significa que lo podemos abrir.
+- Los permisos 1 y 2 (en octal, `--x` y `-w-` en ugo), no tienen sentido ya que sin permiso de lectura (`r`) no podemos hacer nada.

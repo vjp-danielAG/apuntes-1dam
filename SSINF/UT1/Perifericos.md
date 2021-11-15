@@ -8,7 +8,6 @@ Sirve únicamente para entrada. Se compone de una matriz de cables, un codificad
 - Membrana
 - Táctiles
 
-
 ##### Ratón
 Sirve únicamente para entrada. Originalmente se usaba una bola para determinar el movimiento del ratón, pero actualmente se utiliza una fuente de luz y una matríz de sensores foto-eléctricos. Hay dos tipos de ratones.
 - Direcciónal: Indica la dirección en la que debe moverse el cursor.
@@ -134,7 +133,7 @@ Luego ya se pasó al modo gráfico, en el que cada pixel se podía controlar ind
 
 Los primeros modelos se usaba CGA y permitia hasta una resolución de 640x200p, luego se pasó a EGA con RGB (con 4 bits), que permitió hasta 640x480p y con codificación RGB (con 8 bits).
 
-Más tarde llegó VGA y el TrueColor (RGB con 16 bits `554`), y hoy en día se utiliza XGA, que usa la codificación RGB (con 24 bit `888`), que alcanza 1360x1024p.
+Más tarde llegó VGA y el [[Codificación de Color|TrueColor]] (RGB con 16 bits `554`), y hoy en día se utiliza XGA, que usa la codificación RGB (con 24 bit `888`), que alcanza 1360x1024p.
 
 Hoy en día está FullHD, que llega a los 1920x1080p, que soporta TrueColor (de 24 y 32 bits).
 
