@@ -25,7 +25,7 @@ Los [[Sistema Operativo|SO]] están programados por capas (como una cebolla):
 - Carga el Kernel: Luego de que el Kernel se ha cargado, se termina de cargar el propio sistema operativo.
 - Carga el Sistema Operativo.
 
-##### Distribución de directorios
+#### Distribución de directorios
 Linux:
 - `/`: Directorio raiz
 - `/bin`: Donde se encuentran los ejecutables del sistema.
@@ -40,9 +40,17 @@ Linux:
 - `/dev/null` => dispositivo especial que recibe entradas y la borra
 
 ##### Permisos en Linux
-Nota: El prompt nos notifica de los permisos: `$` es usuario normal. `#` es un superusuario.
+Nota: El prompt de la terminal nos notifica: `$` es usuario normal, `#` es root.
 
-Al ejecutar el comando: `ls -lh` (ls largo, modo humanos), te devuelve la información sobre directorios y ficheros en el siguiente formato:
+Los permisos normalmente usan la notación `UGO` (`user`,`group`,`other`) y hay tres  permisos para cada agrupación, `rwx` (`read`,`write`,`execute`).
+
+Algunos puntos a tener en cuenta:
+- En directorios, el permiso de ejecución (`x`) significa que lo podemos abrir.
+- Los permisos 1 y 2 (en octal, `--x` y `-w-` en ugo), no tienen sentido ya que sin permiso de lectura (`r`) no podemos hacer nada.
+
+#### Comandos en linux
+###### ls -lah (largo, todo, modo humanos)
+Comando que te devuelve la información sobre directorios y ficheros en el siguiente formato:
 
 `permisos` `inodo` `propietario` `grupo` `tamaño` `fecha y hora modificación`
 
@@ -52,7 +60,21 @@ La primera letra de los permisos nos da información sobre el tipo de elemento q
 - `c` => periférico
 - `b` => dispositivo de bloques 
 
-El resto de permisos usa la notación `UGO` (`user`,`group`,`other`) y hay tres posibles permisos para cada parte, `rwx` (`read`,`write`,`execute`).
-Algunos puntos a tener en cuenta:
-- En directorios, el permiso de ejecución (`x`) significa que lo podemos abrir.
-- Los permisos 1 y 2 (en octal, `--x` y `-w-` en ugo), no tienen sentido ya que sin permiso de lectura (`r`) no podemos hacer nada.
+###### cd &lt;ruta&gt;
+Comando que permite cambiar de directorio al directorio designado por `ruta`.
+
+###### touch &lt;archivo&gt;
+Comando que permite crear un archivo de nombre `archivo` en el directorio actual.
+
+###### rm &lt;archivo&gt;
+Comando que permite borrar definitivamente un archivo de nombre `archivo`.
+
+###### cp &lt;archivo_1&gt; &lt;archivo_2&gt;
+Comando que permite copiar un archivo `archivo_1` a otro de nombre `archivo_2`.
+
+###### mv &lt;archivo/directorio&gt; &lt;nueva_ubicación&gt;
+Comando que permite mover el `archivo/directorio` a `nueva_ubicación`.
+Se puede usar para renombrar archivos o directorios, pero no comprueba si `nueva_ubicación` existe y lo reemplaza.
+
+###### cat &lt;archivo&gt;
+Comando que permite ver el contenido de un fichero.
