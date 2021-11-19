@@ -17,16 +17,19 @@ Los [[Sistema Operativo|SO]] están programados por capas (como una cebolla):
 	- Usuarios: Modulo que gestiona los usuarios del sistema.
 	- BOOT: Arranque.
 - Drivers: Son programas proporcionados por el fabricante delos periféricos.
-
+___
 ##### ¿Cómo arranca un ordenador?
 - POST: Testea el hardware para comprobar la configuración de hardware y que sea válida. Si hay algún error, lo hará saber mediante una serie de pitidos (el significado depende del fabricante). Esto lo hace la BIOS.
 - Carga el MBR: Junto a esto se carga el bootstrap.
 - Carga el Boot Loader: Programa que te deja elegir los Sistemas Operativos/Kernels a cargar.
 - Carga el Kernel: Luego de que el Kernel se ha cargado, se termina de cargar el propio sistema operativo.
 - Carga el Sistema Operativo.
-
-#### Distribución de directorios
-Linux:
+___
+#### Multitarea vs Multiproceso
+Multitarea: Ejecuto varios procesos de forma intercalada.
+Multiproceso: Ejecuto varios procesos a la vez.
+___
+#### Directorios Linux
 - `/`: Directorio raiz
 - `/bin`: Donde se encuentran los ejecutables del sistema.
 - `/sbin`: Son los ejecutables del superusuario.
@@ -38,7 +41,7 @@ Linux:
 - `/dev/loop*` => dispositivo de red locales (localhost)
 - `/dev/zero` => dispositivo especial que devuelve ceros
 - `/dev/null` => dispositivo especial que recibe entradas y la borra
-
+___
 ##### Permisos en Linux
 Nota: El prompt de la terminal nos notifica: `$` es usuario normal, `#` es root.
 
@@ -47,34 +50,3 @@ Los permisos normalmente usan la notación `UGO` (`user`,`group`,`other`) y hay 
 Algunos puntos a tener en cuenta:
 - En directorios, el permiso de ejecución (`x`) significa que lo podemos abrir.
 - Los permisos 1 y 2 (en octal, `--x` y `-w-` en ugo), no tienen sentido ya que sin permiso de lectura (`r`) no podemos hacer nada.
-
-#### Comandos en linux
-###### ls -lah (largo, todo, modo humanos)
-Comando que te devuelve la información sobre directorios y ficheros en el siguiente formato:
-
-`permisos` `inodo` `propietario` `grupo` `tamaño` `fecha y hora modificación`
-
-La primera letra de los permisos nos da información sobre el tipo de elemento que es:
-- `d` => directorio
-- `l` => enlace
-- `c` => periférico
-- `b` => dispositivo de bloques 
-
-###### cd &lt;ruta&gt;
-Comando que permite cambiar de directorio al directorio designado por `ruta`.
-
-###### touch &lt;archivo&gt;
-Comando que permite crear un archivo de nombre `archivo` en el directorio actual.
-
-###### rm &lt;archivo&gt;
-Comando que permite borrar definitivamente un archivo de nombre `archivo`.
-
-###### cp &lt;archivo_1&gt; &lt;archivo_2&gt;
-Comando que permite copiar un archivo `archivo_1` a otro de nombre `archivo_2`.
-
-###### mv &lt;archivo/directorio&gt; &lt;nueva_ubicación&gt;
-Comando que permite mover el `archivo/directorio` a `nueva_ubicación`.
-Se puede usar para renombrar archivos o directorios, pero no comprueba si `nueva_ubicación` existe y lo reemplaza.
-
-###### cat &lt;archivo&gt;
-Comando que permite ver el contenido de un fichero.
