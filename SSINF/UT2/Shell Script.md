@@ -54,9 +54,7 @@ done
 
 ###### while
 ```bash
-i=0
-
-while [ $i -lt 5 ] # Actua como un "while" de Java
+while [ condicion ] # Actua como un "while" de Java
 do
 	...
 done
