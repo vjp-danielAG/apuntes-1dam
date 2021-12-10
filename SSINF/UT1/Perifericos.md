@@ -8,6 +8,7 @@ Sirve únicamente para entrada. Se compone de una matriz de cables, un codificad
 - Membrana
 - Táctiles
 
+
 ##### Ratón
 Sirve únicamente para entrada. Originalmente se usaba una bola para determinar el movimiento del ratón, pero actualmente se utiliza una fuente de luz y una matríz de sensores foto-eléctricos. Hay dos tipos de ratones.
 - Direcciónal: Indica la dirección en la que debe moverse el cursor.
@@ -45,18 +46,18 @@ Desventajas: Casi ninguna comparativamente
 
 Cada inyector se puede controlar independientemente. Tienen mucha mayor resolución, alrededor los 600 ppp. El cabezal no hace contacto con el papel y son más silenciosa. 
 
-Los hay de varios tipos: de depósito removible:
-- El cabezal es fijo y es parte de la impresora.
+Los hay de varios tipos:
+- Depósito removible: El cabezal es fijo y es parte de la impresora.
 - Cartucho con cabezal: El cabezal está incluido en el propio cartucho. Tienen el problema de tener que alinear los diferentes cabezales de forma independiente y la limpieza de los cabezales. Si el cabezal se obtruye, se puede cambiar el cartucho. Son buenas para impresión a pequeña escala. 
 
 Para impresoras fotográficas, se necesita usar papel especial, y mayor variedad de tintas.
-Cyan, Magenta, Amarillo y Negro (CMYK) son los colores que se usan.
+Cyan, Magenta, Amarillo y Negro (CMYK) son los colores que se usan en impresoras normales.
 - No se debe tocar una hoja recién impresa, porque la impresora tarda en secar. El tiempo de sacado depende de la cantidad de tinta.
 - No hacen copia con papel autocopiante.
 - Imprimir imágenes es un proceso lento, ya que precisa de muchos cálculos.
 
 [Impresoras Láser](https://es.wikipedia.org/wiki/Impresora_l%C3%A1ser)
-Una impresora láser se basa en un rodillo fotosensible que se carga electricamentesegún reciba, o no, luz. El principio de funcionamiento es sencillo, y se basa en cargas electroestáticas.
+Una impresora láser se basa en un rodillo fotosensible que se carga electricamente según reciba, o no, luz. El principio de funcionamiento es sencillo, y se basa en cargas electroestáticas.
 - Un rodillo cargado electroestaticamente se lleva las partículas del toner y las lleva a el papel. Luego el papel pasa por un fusor, que derrite las partículas en el papel.
 - La función del láser/leds es descargar parte del rodillo, para que las partículas no se peguen al rodillo. [Xerografía](https://es.wikipedia.org/wiki/Xerograf%C3%ADa)
 - También hay dos tipos de cartuchos: Con rodillo, o solo el toner.
@@ -71,7 +72,7 @@ El producto final no tiene muy buen acabado, y suele hacer falta pulir y quitar 
 ##### [Escaner](https://es.wikipedia.org/wiki/Esc%C3%A1ner_inform%C3%A1tico)
 La barra del escaner no es mas que un sensor CCD (Charge Coupled Device) que se mueve de un lado a otro. 
 
-Originalmente solo escaneaban en blanco y negro, luego se pasó a escala de grises, y luego ya se empezó a incrementar la gama de colores  (RGB) que los escáneres podían diferenciar. Las resoluciones más común es de 8000ppp.
+Originalmente solo escaneaban en blanco y negro, luego se pasó a escala de grises, y luego ya se empezó a incrementar la gama de colores  ([[Codificación de Color|RGB]]) que los escáneres podían diferenciar. Las resoluciones más común es de 8000ppp.
 
 ##### Cámara
 El funcionamiento es muy similar al de un escaner, pero esta vez con una matríz de sensores. Suelen tener un problemas para filtrar la luz infrarroja.
@@ -81,7 +82,7 @@ Suelen tener un bus de entrada, un DSP (Digital Signal Processor) y buses que co
 
 El DSP se encarga de hacer el postprocesado, es decir; eco, reberv, etc.
 
-La salida de las tarjetas de sonido van a un DAC (Digital to Analog Converter) y a un ADC (Analog to Digital Converter).
+La salida de las tarjetas de sonido van a un DAC (Digital to Analog Converter) y un ADC (Analog to Digital Converter) se encarga de la entrada.
 
 El sonido son ondas puras, pero el ordenador lo que hace es convertir esto a muestras discretas, es decir a números entre 0 y MAX (que determina la resolución).
 
@@ -118,7 +119,7 @@ La GPU no deja de ser un procesador especializado. Está conectado al bus princi
 
 Las GPU tienen su propia memoria interna/local con la que trabajan, y no hacen uso de la CPU, salvo para realizar operaciones que no tienen conocimiento de como realizar.
 
-Varias tarjetas gráficas puenden trabajar como una sola mediante el uso de Crossfire/SLI (ATI/Nvidia).
+Varias tarjetas gráficas pueden trabajar como una sola mediante el uso de Crossfire/SLI (ATI/Nvidia).
 
 La memoria de una GPU se divide en una parte reservada para la pantalla (screen buffer), y la memoria de computo.
 
@@ -131,9 +132,9 @@ Las primeras pantallas no usaban un modo gráfico, por lo que en vez de mostrar 
 
 Luego ya se pasó al modo gráfico, en el que cada pixel se podía controlar independientemente.
 
-Los primeros modelos se usaba CGA y permitia hasta una resolución de 640x200p, luego se pasó a EGA con RGB (con 4 bits), que permitió hasta 640x480p y con codificación RGB (con 8 bits).
+Los primeros modelos se usaba CGA y permitia hasta una resolución de 640x200p, luego se pasó a EGA con [[Codificación de Color|RGB]] (con 4 bits), que permitió hasta 640x480p y con codificación [[Codificación de Color|RGB]] (con 8 bits).
 
-Más tarde llegó VGA y el [[Codificación de Color|TrueColor]] (RGB con 16 bits `554`), y hoy en día se utiliza XGA, que usa la codificación RGB (con 24 bit `888`), que alcanza 1360x1024p.
+Más tarde llegó VGA y el TrueColor ([[Codificación de Color|RGB]] con 16 bits `554`), y hoy en día se utiliza XGA, que usa la codificación [[Codificación de Color|RGB]] (con 24 bit `888`), que alcanza 1360x1024p.
 
 Hoy en día está FullHD, que llega a los 1920x1080p, que soporta TrueColor (de 24 y 32 bits).
 
