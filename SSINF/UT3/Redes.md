@@ -11,9 +11,12 @@ Para redes más pequeñas se usa el RJ45 (UTP y STP), que son 4 pares trenzados,
 Luego ya apareció la fibra óptica, que revolucionó las telecomunicaciones, permitiendo la comunicación de alta velocidad a largas distancias (50 kilometros).
 
 Otra forma de comunicaciones son las inalámbricas. Entre ellas WiFi (cortas distancias) y WiMAX (largas distancias).
+___
 
 ##### Componentes de una red
-Emisor, Receptor y Canal. Además hay otro componente llamado `ruido`.
+Estos son el Emisor, el Receptor y el Canal por el que pasa la información.
+
+Además hay otro componente llamado `ruido`.
 
 ##### Mediciones
 En REDES, todo se mide en `bits/s`.
@@ -25,4 +28,38 @@ En REDES, todo se mide en `bits/s`.
 - Red en arbol. Las más comunes en redes internas.
 - Red mallada o en estrella. 
 
+
+##### Software de red
+El software de red se suele basar en dos modelos (estandard): OSI y TCP/IP
+
+El modelo OSI se divide en siete capas:
+- Aplicación
+- Presentación
+- Sesión
+- Transporte (trabaja con buzones/[[puertos]])
+- Red (direcciones globales : trabaja con [[IP Address|IPs]])
+- Enlace (dirección dispositivos de red : trabaja con [[MAC Address|MACs]])
+- Fisica (cables)
+
+El modelo OSI era demasiado complicado, así que se paso al modelo TCP/IP:
+- Aplicación - `Aplicación/Presentación/Sesión`
+- Transporte - `Transporte`
+- Red - `Red`
+- Enlace - `Enlace/Física`
+
+Las MACs las tienen los Switchs, los Hubs y los NICs (tarjeta de red).
+
+___
+Los Routers trabajan en la capa de Red.
+
+Pasarelas/Bridges trabajan en la capa de Transporte.
+
+Dos tipos de puertos: TCP y UDP
+
+Los routers sirven para unir redes.
+Los switches y hubs para conectar dispositivos.
+
+IPv4 => `255.255.255.255` o `ff.ff.ff.ff`
+
+IPv6 => `ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff`
 
