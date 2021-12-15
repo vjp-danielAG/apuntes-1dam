@@ -17,9 +17,11 @@ ___
 Estos son el Emisor, el Receptor y el Canal por el que pasa la información.
 
 Además hay otro componente llamado `ruido`.
+___
 
 ##### Mediciones
 En REDES, todo se mide en `bits/s`.
+___
 
 ##### Tipos de conexiones
 - Punto a Punto o "Peer to Peer". Conexión directa 
@@ -27,7 +29,7 @@ En REDES, todo se mide en `bits/s`.
 - En anillo o "Token Ring". 
 - Red en arbol. Las más comunes en redes internas.
 - Red mallada o en estrella. 
-
+___
 
 ##### Software de red
 El software de red se suele basar en dos modelos (estandard): OSI y TCP/IP
@@ -48,18 +50,21 @@ El modelo OSI era demasiado complicado, así que se paso al modelo TCP/IP:
 - Enlace - `Enlace/Física`
 
 Las MACs las tienen los Switchs, los Hubs y los NICs (tarjeta de red).
-
 ___
-Los Routers trabajan en la capa de Red.
 
-Pasarelas/Bridges trabajan en la capa de Transporte.
+Los Routers trabajan en la capa de Red. Mientras que las Pasarelas/Bridges trabajan en la capa de Transporte.
 
 Dos tipos de puertos: TCP y UDP
 
 Los routers sirven para unir redes.
 Los switches y hubs para conectar dispositivos.
 
-IPv4 => `255.255.255.255` o `ff.ff.ff.ff`
+```c
+IPv4 => "255.255.255.255"
+IPv6 => "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff"
+```
+___
 
-IPv6 => `ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff`
+Un `Hub` simplemente replica lo que recibe por todas las salidas, mientras que un `Switch` "aprende" en que salidas se situan los diversos dispositivos mediante las [[MAC Address|direcciones MAC]]. Esto se parece al protocolo [[ARP]], pero ARP trabaja con [[IP Address|direcciones IP]].
 
+Para conectar swiches/hubs entre si, o switch/hub con con un router/ordenador se usa cable "recto", mientras que para conectar ordenadores/routers se usa cable "cruzado".

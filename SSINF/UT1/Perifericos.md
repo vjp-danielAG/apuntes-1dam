@@ -135,7 +135,7 @@ Suelen soportar varios tipos de salida:
 ___
 
 ##### Pantalla
-Las primeras pantallas no usaban un modo gráfico, por lo que en vez de mostrar una matriz de píxeles, trabajaban matrizes de caracteres y un color simple con atributos.
+Las primeras pantallas no usaban un modo gráfico, por lo que en vez de mostrar una matriz de píxeles, trabajaban matrizes de [[Codificación de Caracteres|caracteres]] y un color simple con atributos.
 
 Luego ya se pasó al modo gráfico, en el que cada pixel se podía controlar independientemente.
 

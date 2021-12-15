@@ -8,6 +8,7 @@ ___
 ### UT1 - Introducción
 - [[Sistemas de Numeración]]
 - [[Sistema Informático]]
+- [[Codificación Numérica]]
 - [[Perifericos]]
 ___
 
