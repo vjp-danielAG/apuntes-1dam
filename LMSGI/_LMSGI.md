@@ -5,5 +5,3 @@
 
 
 ## Introducción a [[GIT]]
-- Configuración de Git
-- 

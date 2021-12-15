@@ -1,4 +1,4 @@
-tags: #lenguaje #programacion
+#lenguaje #programacion
 
 ## ¿Qué es [[Java]]?
 Java es un lenguaje de programación de alto nivel multiparadigma diseñado por [[Sun Microsystems]] en 1995. Fue posteriormente comprado por la compañia [[Oracle]].
