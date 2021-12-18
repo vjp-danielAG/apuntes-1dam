@@ -1,10 +1,5 @@
 # Programación (PGRMC)
+Lenguaje de programación usado: [[Java]]
 
-## Index
-- [[[[UT1]] - Introducción Java]]
-- [[[[UT2]] - Estructura y Sintaxis]]
-
-### UT1 - Introducción Java
-
-### UT2 - Estructura y Sintaxis
-
+### UT1 - Introducción
+-  [[HelloWorld]]

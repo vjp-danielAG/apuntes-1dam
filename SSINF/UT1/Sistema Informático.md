@@ -20,10 +20,10 @@ Esta arquitectura se llama Vonn Newman, pero las usadas hoy en día son más com
 #### Componentes Internos
 - (SR) Registro de Estado: Contiene las Flags
 - (UC) Unidad de Control: Mayoría de la lógica de la CPU
-- (IR) Registro de Instrucción: Contiene la instrucciñón a ejecutar
-- (TMPS) Accumulador: Registro temporal
-- (PC) Contador de Programa: Dirección de memoria de por donde se está la ejecución
-- (ALU) Unidad Aritmetico-Lógicas: Realiza las operaciones de la CPU
+- (IR) Registro de Instrucción: Contiene la instrucción a ejecutar
+- (TMPS/AC) Accumulador: Registro temporal de datos
+- (PC) Contador de Programa: Dirección de memoria por donde está la ejecución 
+- (ALU) Unidad Aritmetico-Lógica: Realiza las operaciones de la CPU
 	- Suma, Resta, Multiplicación, División, Mayor qué, Menor qué, ...
 - (Rn) Registros Internos
 
@@ -32,8 +32,8 @@ Esta arquitectura se llama Vonn Newman, pero las usadas hoy en día son más com
 La memoria principal es la que se encarga de mantener cargados los datos necesarios para ejecutar los programas.
 
 #### Buses y Lineas de la Memoria
-- (Address Bus) Direcciones = Entrada
-- (Data Bus) Datos = Entrada/Salida
+- (Address Bus) Direcciones = Entrada => `Ancho`
+- (Data Bus) Datos = Entrada/Salida => `Largo`
 - (R/W) Linea de Lectura/Escritura
 - (ChipSelect) Linea para deshabilitar un módulo
 - (RAS y CAS) Subdivisiones del bus AB dentro de la distribución real de memoria
@@ -68,14 +68,14 @@ La memoria principal es la que se encarga de mantener cargados los datos necesar
 - Vuelve a aparecer AMD => copia el i486 => AMD 486DX => AMD K6 (primer 1 GHz 64b)
 - Salen los Intel i3-5
 
-La velocidad de los ordenadores se dobla cada 18 meses como media.
+Observación: La velocidad de los ordenadores se dobla cada 18 meses como media.
 
 ## Discos duros:
 Suelen tener una base plástica recubierta de material ferromagnetico, sobre la que pasa una cabeza lecto-escritora.
 
 Se divide en pistas (concéntricas) y sectores. Todas las pistas tienen la misma capacidad y todos los sectores tienen la misma capacidad.
 
-Por lo tanto la parte interior del disco tiene mayor capacidad que la exterior. Las pistas van numeradas de fuera hacia dentro, pero los sectores no son contiguos.
+Por lo tanto la parte interior del disco tiene una mayor densidad de información que la exterior. Las pistas van numeradas de fuera hacia dentro, pero los sectores no son contiguos.
 
 Tiene 3 tiempos: 
 - Acceso/Posicionamiento: Lo que tarda la cebaza en situarse en la pista.
@@ -101,7 +101,7 @@ La capacidad de un disco: `nPlatos x nPistas x sectores/pista x bytes/sector`
 #### Conectores externos de la Placa Base
 - Pantalla: DB-15 o [[VGA]], [[DVI]], [[HDMI]], [[DisplayPort]]
 - Periféricos: [[PS2]] (morado|verde, teclado|ratón)
-- Audio: [[Jack 3.5]] => MIC, EAR, Audio-IN
+- Audio: [[Jack 3.5]] => MIC, EAR, Audio-IN, Audio-OUT
 - Datos: Firewire, [[USB|USB-A]], USB-C, USB-B, MicroB
 - Red: [[RJ-45]]
 - Serial (DB-9) y Puerto Paralelo (DB-25)

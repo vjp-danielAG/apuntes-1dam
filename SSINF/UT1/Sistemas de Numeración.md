@@ -12,10 +12,10 @@ Hay dos formas de pasar de [[Sistema Decimal|Decimal]] a [[SIstema Binario|Binar
 10 => 1010
      10 /2
       0 |5 /2
-         1 |2 /2
-      |     0 |1 /2
-      |  |     1 |0
-      |  |  |   
+      |  1 |2 /2
+      |  |  0 |1 /2
+      |  |  |  1 |0
+      |  |  |  |
 1010 <= <= <= <=		 
 ```
 - Cuenta la' vieja: Usamos las potencias de base 2 para recomponer el número.
