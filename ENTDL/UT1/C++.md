@@ -1,4 +1,4 @@
-tags: #lenguaje #programacion
+tags: [[lenguaje]] [[programacion]]
 links: [presentación](https://docs.google.com/presentation/d/e/2PACX-1vTkpmUXkJd9HnyyKq6PnIQuohJGnz-ZIR-nXOseRJuAShtTMJoiZiDeAJhwLPWGQOKYiF0hbO0574ni/pub?start=false&loop=false&delayms=20000), [información sobre C++](https://www.zator.com/Cpp/E4_11_2d.htm)
 
 ### ¿Qué es [[C++]]?
@@ -43,7 +43,7 @@ Al ser un lenguaje multiparadigma, este tiene muchos usos, pero entre ellos dest
 
 ### [[HelloWorld]] en [[C++]]
 ```cpp
-#include <iostream>  // Entrada/Salida
+[[include]] <iostream>  // Entrada/Salida
 using namespace std; // Libreria base de C
 
 int main() { // Punto de entrada
